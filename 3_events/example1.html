@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Ahora soy de color negro</h1>
+
+    <button>Hazme click para poner el título rojo</button>
+
+    <script>
+
+        const buttonTag = document.querySelector('button')
+
+        buttonTag.onclick = function () {
+
+            const titleTag = document.querySelector('h1')
+
+            titleTag.style.color = 'red'
+            titleTag.style.textTransform = 'uppercase'
+            titleTag.innerHTML = '...y ahora de color rojo!'
+        }
+
+    </script>
+</body>
+
+</html>

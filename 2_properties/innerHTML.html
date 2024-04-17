@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="cat">Soy el contenido <strong>inicial</strong> jeje :)</div>
+
+    <script>
+
+        let theCatDiv = document.querySelector('#cat')
+
+        // innertHTML (getter)
+        console.log('El HTML inicial de la etiqueta era', theCatDiv.innerHTML)
+
+        // innertHTML (setter)
+        theCatDiv.innerHTML = '<h1>Ahora soy yo el contenido jejej</h1>'
+    </script>
+
+</body>
+
+</html>

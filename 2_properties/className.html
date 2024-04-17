@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="mouse class1 class2 another-class">Soy un ratón</div>
+    <script>
+
+        let theMouseDiv = document.querySelector('.mouse')
+
+        // Clases (getter)
+        console.log(theMouseDiv.className)
+
+        // Clases (setter)
+        theMouseDiv.className = 'ahora-tengo-solo-esta-clase'
+
+    </script>
+
+</body>
+
+</html>
